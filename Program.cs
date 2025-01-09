@@ -13,7 +13,7 @@ internal class Program
     
     private static void Main()
     {
-        Host TenyokjBot = new Host("7594240714:AAErWeybbQ8xyMilLCsjA1VyC4wpXYpfr6k");
+        Host TenyokjBot = new Host("Your Host");
         TenyokjBot.Start();
         TenyokjBot.OnMessage += OnMessage;
         Console.ReadLine();
